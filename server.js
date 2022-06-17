@@ -2,7 +2,6 @@
 import express from 'express'
 import request from 'request'
 
-var credentials = {key: privateKey, cert: certificate};
 const app = express()
 const port = 3420
 
