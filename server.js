@@ -1,9 +1,5 @@
 //EXPRESS
 import express from 'express'
-import fs from 'fs'
-import https from 'https'
-var privateKey  = fs.readFileSync('./selfsigned.key', 'utf8');
-var certificate = fs.readFileSync('./selfsigned.crt', 'utf8');
 import request from 'request'
 
 var credentials = {key: privateKey, cert: certificate};
